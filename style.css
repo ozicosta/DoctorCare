@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+
+  --color-primary: #DCE9E2;
+  --green-color: #00856F;
+  --paragraph: #495057;
+
+  font-size: 100%; /* 100% é o mesmo que 16px -> padrão para navegadores */
+  
+}
+
+body{
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  background-color: gray;
+}
+
+#bloco-principal{
+  width: 23.4375rem;
+  background: var(--color-primary);
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+h4{
+  font-size: 0.875rem; /* 14/16 = 0.875 (pega uma parte dos 100%) */
+  color: var(--green-color);
+  /* padding-top: 1.3125rem; */
+  padding-top: 2.5rem;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+}
+
+h1{
+font-size: 2.125rem; /* 2.125 equivale a 34px -> 34/16 */
+line-height: 130%;
+padding-top: 1rem;
+padding-bottom: 1.5rem;
+}
+
+h3{
+  font-size: 2.5rem;
+}
+
+p{
+  font-size: 1.125rem; /*1.125 equivale a 18px*/
+  color: var(--green-color);
+  line-height: 150%;
+}
+#paragraph{
+  color: var(--paragraph);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+button{
+  font-family: "DM Sans";
+  background: var(--green-color);
+  color: #fff;
+  font-weight: 700;
+
+  height: 3.25rem ;
+  width:  16.4375rem;
+
+  border: none;
+  border-radius: 2.5rem;
+
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  
+  display: flex;
+  align-items: center; /* alinhar texto no centro vertical*/
+  justify-content: center; /* alinhar texto no centro horizontal*/
+  gap: 1rem; /* espaço entre elementos dentro de uma caixa */
+}
+
+#button img{
+  width: 25px;
+  margin-top: -65px;
+}
+
+#padding-bottom{
+  padding-top: 1.3020rem;
+  padding-bottom: 1.3125rem;
+  line-height: 300%;
+}
+
+.static{
+  padding-bottom: 5rem;
+}
+
+#statics{
+  background-color: #fff;
+  width: 20.4375rem;
+  padding-block: 0.25rem;
+  /* height: 29.375rem; */
+
+  margin-inline: auto;
+  display: flex; /* deixar conteudo de dentro um ao lado do outro */
+  flex-direction: column; /* deixar em colunas -> uma a baixo da outra */
+  gap: 3.75rem; /* separação entre elementos dentro da caixa em flex */
+
+  border-radius: 0.3125rem;
+  /* position: absolute; */
+}
+
+img{
+  padding-top: 3.75rem;
+  position: relative;
+}
